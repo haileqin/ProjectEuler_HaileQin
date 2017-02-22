@@ -1,0 +1,35 @@
+The following iterative sequence is defined for the set of positive integers:
+
+n → n/2 (n is even)
+n → 3n + 1 (n is odd)
+
+Using the rule above and starting with 13, we generate the following sequence:
+
+13 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1
+It can be seen that this sequence (starting at 13 and finishing at 1) contains 10 terms. Although it has not been proved yet (Collatz Problem), it is thought that all starting numbers finish at 1.
+
+Which starting number, under one million, produces the longest chain?
+
+NOTE: Once the chain starts the terms are allowed to go above one million.
+
+
+2x2: 6
+3x3: 20
+4x4: 70
+5x5: 252
+6x6: 924
+7x7: 3432
+8x8: 12870
+9x9: 48620
+10x10: 184756
+11x11: 705432
+12x12: 2704156
+13x13: 10400600
+14x14: 40116600
+15x15: 155117520
+16x16: 601080390
+17x17: 2333606220
+18x18: 9075135300
+19x19: 35345263800
+20x20: 137846528820
+
